@@ -1,0 +1,135 @@
+2025-05-07 08:35:05.359 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : Starting EcommerceAuthApplicationTests using Java 19.0.2 with PID 54241 (started by a267246 in /Users/a267246/Development/Learning_5_2025/LearnSpring/ecommerce-auth)
+2025-05-07 08:35:05.359 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 08:35:05.574 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 08:35:05.585 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2025-05-07 08:35:05.815 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] org.flywaydb.core.FlywayExecutor         : Database: jdbc:h2:mem:ecomm (H2 2.3)
+2025-05-07 08:35:05.818 WARN [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2025-05-07 08:35:05.823 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.f.core.internal.database.base.Schema   : Creating schema "ecomm" ...
+2025-05-07 08:35:05.824 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "ecomm"."flyway_schema_history" ...
+2025-05-07 08:35:05.841 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema "ecomm": null
+2025-05-07 08:35:05.842 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema "ecomm" is up to date. No migration necessary.
+2025-05-07 08:35:05.876 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 08:35:05.890 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 08:35:05.900 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-07 08:35:05.983 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 08:35:05.993 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : ecomm - Starting...
+2025-05-07 08:35:05.998 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : ecomm - Added connection conn2: url=jdbc:h2:mem:ecomm user=SA
+2025-05-07 08:35:05.999 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : ecomm - Start completed.
+2025-05-07 08:35:06.006 WARN [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 08:35:06.011 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (ecomm)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 08:35:06.116 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 08:35:06.117 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 08:35:06.170 WARN [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-07 08:35:06.314 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecomm'
+2025-05-07 08:35:06.397 INFO [Chapter06,,,] [null] [null] [null] [null] 54241 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : Started EcommerceAuthApplicationTests in 1.157 seconds (process running for 1.57)
+2025-05-07 13:37:20.669 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : Starting EcommerceAuthApplicationTests using Java 19.0.2 with PID 44552 (started by a267246 in /Users/a267246/Development/Learning_5_2025/LearnSpring/ecommerce-auth)
+2025-05-07 13:37:20.672 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 13:37:20.914 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 13:37:20.945 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 13 JPA repository interfaces.
+2025-05-07 13:37:21.237 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] org.flywaydb.core.FlywayExecutor         : Database: jdbc:h2:mem:ecomm (H2 2.3)
+2025-05-07 13:37:21.240 WARN [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2025-05-07 13:37:21.244 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.f.core.internal.database.base.Schema   : Creating schema "ecomm" ...
+2025-05-07 13:37:21.246 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "ecomm"."flyway_schema_history" ...
+2025-05-07 13:37:21.262 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema "ecomm": null
+2025-05-07 13:37:21.264 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema "ecomm" is up to date. No migration necessary.
+2025-05-07 13:37:21.302 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 13:37:21.317 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 13:37:21.327 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-07 13:37:21.409 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 13:37:21.418 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : ecomm - Starting...
+2025-05-07 13:37:21.423 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : ecomm - Added connection conn2: url=jdbc:h2:mem:ecomm user=SA
+2025-05-07 13:37:21.424 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : ecomm - Start completed.
+2025-05-07 13:37:21.430 WARN [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 13:37:21.436 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (ecomm)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 13:37:21.820 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 13:37:21.821 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 13:37:21.965 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 13:37:22.261 WARN [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-07 13:37:22.639 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecomm'
+2025-05-07 13:37:22.672 INFO [Chapter06,,,] [null] [null] [null] [null] 44552 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : Started EcommerceAuthApplicationTests in 2.12 seconds (process running for 2.518)
+2025-05-07 13:40:23.790 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : Starting EcommerceAuthApplicationTests using Java 19.0.2 with PID 45092 (started by a267246 in /Users/a267246/Development/Learning_5_2025/LearnSpring/ecommerce-auth)
+2025-05-07 13:40:23.791 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 13:40:24.030 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 13:40:24.069 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 13 JPA repository interfaces.
+2025-05-07 13:40:24.360 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] org.flywaydb.core.FlywayExecutor         : Database: jdbc:h2:mem:ecomm (H2 2.3)
+2025-05-07 13:40:24.363 WARN [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2025-05-07 13:40:24.368 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.f.core.internal.database.base.Schema   : Creating schema "ecomm" ...
+2025-05-07 13:40:24.369 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "ecomm"."flyway_schema_history" ...
+2025-05-07 13:40:24.385 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema "ecomm": null
+2025-05-07 13:40:24.386 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema "ecomm" is up to date. No migration necessary.
+2025-05-07 13:40:24.428 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 13:40:24.444 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 13:40:24.455 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-07 13:40:24.545 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 13:40:24.555 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : ecomm - Starting...
+2025-05-07 13:40:24.559 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : ecomm - Added connection conn2: url=jdbc:h2:mem:ecomm user=SA
+2025-05-07 13:40:24.560 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : ecomm - Start completed.
+2025-05-07 13:40:24.567 WARN [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 13:40:24.573 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (ecomm)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 13:40:24.952 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 13:40:24.953 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 13:40:25.090 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 13:40:25.375 WARN [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-07 13:40:25.808 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecomm'
+2025-05-07 13:40:25.845 INFO [Chapter06,,,] [null] [null] [null] [null] 45092 --- [    Test worker] c.s.e.EcommerceAuthApplicationTests      : Started EcommerceAuthApplicationTests in 2.182 seconds (process running for 2.627)
+2025-05-07 13:41:38.734 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] c.s.e.EcommerceAuthApplication           : Starting EcommerceAuthApplication v0.0.1 using Java 21.0.4 with PID 45533 (/Users/a267246/Development/Learning_5_2025/LearnSpring/ecommerce-auth/build/libs/ecommerce-auth-0.0.1.jar started by a267246 in /Users/a267246/Development/Learning_5_2025/LearnSpring/ecommerce-auth)
+2025-05-07 13:41:38.735 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] c.s.e.EcommerceAuthApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 13:41:39.105 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 13:41:39.144 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 13 JPA repository interfaces.
+2025-05-07 13:41:39.465 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-07 13:41:39.472 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-07 13:41:39.473 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-07 13:41:39.473 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 13:41:39.487 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-07 13:41:39.487 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 734 ms
+2025-05-07 13:41:39.694 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:h2:mem:ecomm (H2 2.3)
+2025-05-07 13:41:39.696 WARN [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2025-05-07 13:41:39.701 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.f.core.internal.database.base.Schema   : Creating schema "ecomm" ...
+2025-05-07 13:41:39.702 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "ecomm"."flyway_schema_history" ...
+2025-05-07 13:41:39.718 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "ecomm": null
+2025-05-07 13:41:39.720 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.f.core.internal.command.DbMigrate      : Schema "ecomm" is up to date. No migration necessary.
+2025-05-07 13:41:39.767 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 13:41:39.797 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 13:41:39.814 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-07 13:41:39.950 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 13:41:39.966 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] com.zaxxer.hikari.HikariDataSource       : ecomm - Starting...
+2025-05-07 13:41:39.970 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] com.zaxxer.hikari.pool.HikariPool        : ecomm - Added connection conn2: url=jdbc:h2:mem:ecomm user=SA
+2025-05-07 13:41:39.971 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] com.zaxxer.hikari.HikariDataSource       : ecomm - Start completed.
+2025-05-07 13:41:39.981 WARN [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 13:41:39.988 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (ecomm)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 13:41:40.469 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 13:41:40.470 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 13:41:40.632 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 13:41:41.020 WARN [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-07 13:41:41.504 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecomm'
+2025-05-07 13:41:41.533 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2025-05-07 13:41:41.548 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-07 13:41:41.563 INFO [Chapter06,,,] [null] [null] [null] [null] 45533 --- [           main] c.s.e.EcommerceAuthApplication           : Started EcommerceAuthApplication in 3.106 seconds (process running for 3.431)
